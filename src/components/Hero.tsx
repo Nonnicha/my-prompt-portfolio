@@ -79,7 +79,7 @@ export default function Hero() {
               <img
                 alt="Chanon Wiriyathanachit - Full Stack Developer"
                 className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity"
-                src="public/nonnicha.svg"
+                src="/nonnicha.svg"
               />
             </div>
             <div className="absolute inset-0 bg-primary blur-[80px] opacity-10 -z-10 rounded-full"></div>
