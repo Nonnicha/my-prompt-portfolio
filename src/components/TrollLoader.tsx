@@ -26,7 +26,7 @@ export default function TrollLoader() {
             ease: "easeInOut",
           }}
         >
-          404 NOT FOUND
+          404 หาบ่พ้อ
         </motion.h1>
         <p className="text-base md:text-lg mt-5 opacity-50 text-center">
           (บ่เป็นหยังดอก หยอกๆ กำลังโหลดอยู่... ถ่าจักคราวเด้อ!)
