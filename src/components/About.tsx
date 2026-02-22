@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function About() {
   const experiences = [
     { title: "Ruby on Rails", level: "Working" },
@@ -12,11 +14,21 @@ export default function About() {
     <section className="py-20 bg-[#151515]" id="about">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-12 gap-12">
-          <div className="md:col-span-5 space-y-6 relative">
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true, amount: 0.3 }}
+            className="md:col-span-5 space-y-6 relative"
+          >
             <div className="absolute left-3.5 top-2 bottom-2 w-0.5 bg-linear-to-b from-primary to-transparent opacity-30"></div>
 
             {experiences.map((exp, index) => (
-              <div
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.4, delay: index * 0.1 }}
+                viewport={{ once: true }}
                 key={index}
                 className="relative bg-card-dark border border-primary/20 rounded-lg p-6 hover:border-primary/60 transition-colors group"
               >
@@ -29,11 +41,17 @@ export default function About() {
                     {exp.level}
                   </div>
                 </div>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
 
-          <div className="md:col-span-7">
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true, amount: 0.3 }}
+            className="md:col-span-7"
+          >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
               About me
             </h2>
@@ -85,7 +103,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
