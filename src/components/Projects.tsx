@@ -63,7 +63,7 @@ export default function Projects() {
                 className="px-6 py-2.5 bg-tertiary hover:bg-red-700 text-white font-bold rounded shadow-lg shadow-red-500/20 transition-all"
                 href="#"
               >
-                View Github
+                View Details
               </a>
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function Projects() {
                 className="px-6 py-2.5 bg-tertiary hover:bg-red-700 text-white font-bold rounded shadow-lg shadow-red-500/20 transition-all"
                 href="#"
               >
-                View Github
+                View Details
               </a>
             </div>
           </div>
@@ -206,7 +206,7 @@ export default function Projects() {
                 className="px-6 py-2.5 bg-tertiary hover:bg-red-700 text-white font-bold rounded shadow-lg shadow-red-500/20 transition-all"
                 href="#"
               >
-                View Github
+                View Details
               </a>
             </div>
           </div>
