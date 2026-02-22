@@ -11,12 +11,12 @@ export default function TrollLoader() {
             y: [0, -8, 5, -5, 8, 0],
             rotate: [0, 3, -3, 6, -6, 0],
             color: [
-              "#E0E0E0", // default text
-              "#AB5DEE", // primary
-              "#1CDD33", // secondary
-              "#AB5DEE", // primary
-              "#FF0000", // tertiary
-              "#E0E0E0", // default
+              "#E0E0E0",
+              "#AB5DEE",
+              "#1CDD33",
+              "#AB5DEE",
+              "#FF0000",
+              "#E0E0E0",
             ],
           }}
           transition={{
@@ -29,7 +29,7 @@ export default function TrollLoader() {
           404 NOT FOUND
         </motion.h1>
         <p className="text-base md:text-lg mt-5 opacity-50 text-center">
-          (บ่เป็นหยังดอก หยอกๆ กำลังโหลดอยู่... ถ่าจักหน่อยเด้อ!)
+          (บ่เป็นหยังดอก หยอกๆ กำลังโหลดอยู่... ถ่าจักคราวเด้อ!)
         </p>
       </div>
     </div>
